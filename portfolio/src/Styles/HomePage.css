@@ -1,0 +1,86 @@
+.header-wrapper {
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+    color: rgb(25, 25, 25);
+}
+
+.mg-top {
+    margin-top: 20px;
+}
+
+.mg-bottom {
+    margin-bottom: 20px;
+}
+
+.header-logo {
+    display: block;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 2px;
+    font-style: italic;
+    line-height: 1.4;
+}
+
+.logo-sm {
+    font-size: 3rem;
+}
+
+.logo-lg {
+    font-size: 5rem;
+}
+
+.header-links {
+    width: 30%;
+    border-top: 8px solid rgb(250, 128, 114);
+    border-bottom: 8px solid rgb(251, 153, 142);
+    text-align: center;
+    padding: 10px;
+}
+
+.icon {
+    font-size: 3rem;
+}
+
+.icon:first-child {
+    margin-right: 10px;
+}
+
+.email {
+    background: none;
+    font-size: 1.7rem;
+}
+
+.subheader {
+    border-bottom: 3px solid rgb(250, 128, 114);
+}
+
+.subheader-links {
+    margin-top: 20px;
+    display: flex;
+    width: 40%;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.nav-link {
+    color: inherit;
+    text-decoration: none;
+    font-size: 1.7rem;
+    text-transform: uppercase;
+}
+
+.subheader-wrapper {
+    background: rgb(153, 153, 153);
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    text-align: center;
+}
+
+.ul-item {
+    list-style-type: circle;
+    display: inline-block;
+}
