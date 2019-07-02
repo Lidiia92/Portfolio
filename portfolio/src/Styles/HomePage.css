@@ -1,86 +1,115 @@
-.header-wrapper {
-    display: flex;
-    width: 90%;
-    margin: 0 auto;
-    justify-content: space-between;
-    align-items: center;
-    color: rgb(25, 25, 25);
-}
-
-.mg-top {
-    margin-top: 20px;
-}
-
-.mg-bottom {
-    margin-bottom: 20px;
-}
-
-.header-logo {
-    display: block;
-    text-transform: uppercase;
-    font-weight: 700;
-    letter-spacing: 2px;
-    font-style: italic;
-    line-height: 1.4;
-}
-
-.logo-sm {
-    font-size: 3rem;
-}
-
-.logo-lg {
-    font-size: 5rem;
-}
-
-.header-links {
-    width: 30%;
-    border-top: 8px solid rgb(250, 128, 114);
-    border-bottom: 8px solid rgb(251, 153, 142);
-    text-align: center;
+.header {
+    
+    margin-bottom: 1px;
     padding: 10px;
 }
 
-.icon {
-    font-size: 3rem;
+
+.header-wrapper {
+    width: 80%;
+    margin: 0 auto;
+    color: rgb(25, 25, 25);
 }
 
-.icon:first-child {
-    margin-right: 10px;
-}
-
-.email {
-    background: none;
-    font-size: 1.7rem;
-}
-
-.subheader {
-    border-bottom: 3px solid rgb(250, 128, 114);
-}
-
-.subheader-links {
-    margin-top: 20px;
+.header-links {
     display: flex;
     width: 40%;
-    justify-content: space-between;
-    margin-bottom: 10px;
+    margin: 10px auto;
+    justify-content: space-around;
+    text-transform: uppercase;
+
 }
 
 .nav-link {
-    color: inherit;
+    color: rgb(25, 25, 25);
     text-decoration: none;
-    font-size: 1.7rem;
-    text-transform: uppercase;
+    font-size: 2rem;
 }
 
-.subheader-wrapper {
-    background: rgb(153, 153, 153);
-    font-size: 2.5rem;
-    text-transform: uppercase;
-    font-weight: 700;
+
+.subheader-text {
+    width: 100%;
+    margin: 0 auto;
+    background: salmon; 
+    border-top: 10px solid rgba(225, 115, 102, .4);
+}
+
+.subheader-text h2{
+    background: salmon; 
     text-align: center;
+    padding: 100px 50px 20px 50px;
+    font-size: 7rem;
+    color: #f7f7f7;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 14px;
+    text-shadow: 6px 2px 7px #b45c51;
 }
 
-.ul-item {
-    list-style-type: circle;
-    display: inline-block;
+.subheader-text h3 {
+    background: salmon; 
+    text-shadow: 6px 2px 7px #b45c51;
+    text-align: center;
+    color: #f7f7f7;
+    font-size: 3rem;
+
 }
+
+.title {
+    color: whitesmoke;
+    text-align: center;
+    font-size: 3.5rem;
+    text-shadow: 6px 2px 7px #b45c51;
+}
+
+.mg-bottom {
+    padding-bottom: 150px;
+}
+
+.subheader-text:after {
+    content:'';
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    width: 0;
+    height: 0;
+    border-top: 25px solid salmon;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+
+}
+
+.second-section {
+
+    background: rgb(50, 50, 50);
+  
+}
+
+.second-section div {
+    text-align: center;
+    padding-top: 40px;
+}
+
+.second-section__img {
+    border-radius: 50%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
