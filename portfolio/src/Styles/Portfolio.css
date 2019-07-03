@@ -1,7 +1,14 @@
 .header {
-    
-    margin-bottom: 1px;
     padding: 10px;
+    -webkit-box-shadow: 0px 10px 7px -3px rgba(50,50,50,0.3);
+    -moz-box-shadow: 0px 10px 7px -3px rgba(50,50,50,0.3);
+    box-shadow: 0px 10px 7px -3px rgba(50,50,50,0.3);
+    z-index: 5;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    background: rgb(232, 221, 211);
 }
 
 
@@ -11,7 +18,7 @@
     color: rgb(25, 25, 25);
 }
 
-.header-links {
+.header-links-container {
     display: flex;
     width: 40%;
     margin: 10px auto;
@@ -20,24 +27,25 @@
 
 }
 
-.nav-link {
+.header-link {
     color: rgb(25, 25, 25);
     text-decoration: none;
     font-size: 2rem;
 }
 
+/* Main Section */
 
-.subheader-text {
+
+.mainsection-text {
     width: 100%;
     margin: 0 auto;
     background: salmon; 
-    border-top: 10px solid rgba(225, 115, 102, .4);
 }
 
-.subheader-text h2{
+.mainsection-text h2{
     background: salmon; 
     text-align: center;
-    padding: 100px 50px 20px 50px;
+    padding: 250px 50px 20px 50px;
     font-size: 7rem;
     color: #f7f7f7;
     font-weight: 700;
@@ -46,7 +54,7 @@
     text-shadow: 6px 2px 7px #b45c51;
 }
 
-.subheader-text h3 {
+.mainsection-text h3 {
     background: salmon; 
     text-shadow: 6px 2px 7px #b45c51;
     text-align: center;
@@ -63,10 +71,10 @@
 }
 
 .mg-bottom {
-    padding-bottom: 150px;
+    padding-bottom: 230px;
 }
 
-.subheader-text:after {
+.mainsection-text:after {
     content:'';
     position: absolute;
     left: 0;
@@ -80,19 +88,36 @@
 
 }
 
-.second-section {
+/* Projects Sectio */
+
+.projects-section {
 
     background: rgb(50, 50, 50);
   
 }
 
-.second-section div {
+.projects-section div {
     text-align: center;
-    padding-top: 40px;
+    padding-top: 80px;
 }
 
-.second-section__img {
+.projects-section__img {
+    width: 35%;
+    height: auto;
     border-radius: 50%;
+    border: 8px solid rgba(45, 45, 45, .6);
+}
+
+.projects-heading {
+    text-align: center;
+    background: rgb(50, 50, 50);
+    font-size: 7rem;
+    color: #f7f7f7;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 14px;
+    margin-top: 30px;
+    text-shadow: 6px 2px 7px rgba(45, 45, 45);
 }
 
 

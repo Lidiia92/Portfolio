@@ -7,10 +7,10 @@ function Header() {
     <header className="header">
        
         <div className="header-wrapper">
-            <div className="header-links">
-                <Link to="#" className="nav-link">About me</Link>
-                <Link to="#" className="nav-link">Projects</Link>
-                <Link to="#" className="nav-link">Skills</Link>
+            <div className="header-links-container">
+                <Link to="#" className="header-link">About me</Link>
+                <Link to="#" className="header-link">Projects</Link>
+                <Link to="#" className="header-link">Skills</Link>
             </div>
 
         </div>

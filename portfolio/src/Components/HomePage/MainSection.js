@@ -1,22 +1,18 @@
 import React from 'react';
-import homepic from '../../images/homepic.jpg';
 
 
 
 
-function MainSection() {
+function SubHeader() {
   return (
-    <div>
-        <header className="main-section-wrapper">
-        <h1>The Untold Story of Her Coding Life - Page 2</h1>
-        <div className="main-section-img" >
-        <div className="main-section-text">
-            
+    <header className="mainsection-wrapper">
+        <div className="mainsection-text">
+            <h2>Lidiia Gallagher</h2>
+            <h3><i class="fas fa-ellipsis-h title"></i></h3>
+            <h3 className="mg-bottom">Full-Stack Web Developer</h3>
         </div>
-        </div>
-        </header>
-    </div>
+    </header>
   );
 }
 
-export default MainSection;
+export default SubHeader;
