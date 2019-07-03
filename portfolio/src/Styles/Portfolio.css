@@ -117,11 +117,19 @@
     text-transform: uppercase;
     letter-spacing: 14px;
     margin-top: 30px;
+    margin-bottom: 40px;
     text-shadow: 6px 2px 7px rgba(45, 45, 45);
+}
+
+.projects-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
 }
 
 .project {
     max-width: 500px;
+    margin-bottom: 80px;
 }
 
 .project-img {
@@ -151,6 +159,7 @@
     color: rgb(50,50,50);
     font-size: 1.9rem;
     cursor: pointer;
+    text-decoration: none;
 }
 
 .project-circle {
