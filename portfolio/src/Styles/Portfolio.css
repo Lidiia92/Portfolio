@@ -15,7 +15,7 @@
 .header-wrapper {
     width: 80%;
     margin: 0 auto;
-    color: rgb(25, 25, 25);
+    color: rgb(50, 50, 50);
 }
 
 .header-links-container {
@@ -96,7 +96,7 @@
   
 }
 
-.projects-section div {
+.projects-section .projects-section-img {
     text-align: center;
     padding-top: 80px;
 }
@@ -118,6 +118,107 @@
     letter-spacing: 14px;
     margin-top: 30px;
     text-shadow: 6px 2px 7px rgba(45, 45, 45);
+}
+
+.project {
+    max-width: 500px;
+}
+
+.project-img {
+    width: 500px;
+    height: auto;
+}
+
+.project-text {
+    background: salmon;
+    margin-top: -3px;
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.project-text__heading {
+    background: salmon;
+    text-shadow: 6px 2px 7px #b45c51;
+    color: #f7f7f7;
+    font-size: 2.5rem;
+    
+}
+
+.project-link {
+    color: rgb(50,50,50);
+    font-size: 1.7rem;
+    cursor: pointer;
+}
+
+.project-circle {
+    margin-bottom: 3px;
+    font-size: .8rem;
+    margin-right: 8px;
+    margin-left: 8px;
+    color: rgb(50,50,50);
+    text-shadow: 6px 2px 7px #b45c51;
+}
+
+.project-img__container {
+    position: relative;
+}
+
+.project-overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background: rgba(232, 221, 211, .9);
+}
+
+.project-click__icon {
+    font-size: 4rem;
+}
+
+.project-overlay__open {
+    opacity: 1;
+}
+
+.toggle-overlay {
+    padding: 5px;
+    width: 100%;
+    background: salmon;
+    border: none;
+    outline: none;
+}
+
+.arrow {
+    font-size: 1.7rem;
+    color: rgb(50,50,50);
+}
+
+.overlay-text {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.overlay-text-description {
+    color: rgb(50,50,50);
+    font-size: 1.7rem;
+    background: none;
+}
+
+.overlay-circle {
+    font-size: .8rem;
+    margin-right: 8px;
+    margin-left: 8px;
+    color: rgb(50,50,50);
+    margin-top: 5px;
 }
 
 
