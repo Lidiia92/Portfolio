@@ -149,7 +149,7 @@
 
 .project-link {
     color: rgb(50,50,50);
-    font-size: 1.7rem;
+    font-size: 1.9rem;
     cursor: pointer;
 }
 
@@ -198,6 +198,7 @@
 .arrow {
     font-size: 1.7rem;
     color: rgb(50,50,50);
+    cursor: pointer;
 }
 
 .overlay-text {
@@ -205,12 +206,14 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 }
 
 .overlay-text-description {
     color: rgb(50,50,50);
-    font-size: 1.7rem;
+    font-size: 1.9rem;
     background: none;
+    display: inline-block;
 }
 
 .overlay-circle {
@@ -218,7 +221,22 @@
     margin-right: 8px;
     margin-left: 8px;
     color: rgb(50,50,50);
-    margin-top: 5px;
+    margin-bottom: 2px;
+    display: inline-block;
+}
+
+.overlay-icons {
+    margin-top: 10px;
+}
+
+.overlay-icon {
+    font-size: 2.3rem;
+    color: rgb(50,50,50);
+
+}
+
+.mg-right {
+    margin-right: 15px;
 }
 
 

@@ -3,6 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 import projectsVector from '../../images/projects-vector2.jpg'; 
 import challengejs from '../../images/challengejs.jpg';
+import graphql from '../../images/graphql.png';
 
 
 
@@ -10,7 +11,7 @@ import challengejs from '../../images/challengejs.jpg';
 function ProjectsSection() {
 
   const [classes, setClasses] = useState(false);
-  const [fontawesomeClass, setFontAwesomeClasses] = useState('fas fa-angle-up')
+  
 
   function addClassHandler() {
 
@@ -35,9 +36,15 @@ function ProjectsSection() {
                   <img className="project-img" src={challengejs}/>
                   <div className={classes ? `project-overlay project-overlay__open` : `project-overlay`}>
                       <div className="overlay-text">
-                          <p className="overlay-text-description">Desktop View</p>
-                          <i className="fas fa-circle overlay-circle"></i>
-                          <p className="overlay-text-description">Front-End</p>
+                          <div>
+                            <p className="overlay-text-description">Desktop View</p>
+                            <i className="fas fa-circle overlay-circle"></i>
+                            <p className="overlay-text-description">Front-End</p>
+                          </div>
+                          <div className="overlay-icons">
+                            <i className="fab fa-react overlay-icon mg-right" title="React"></i>
+                            <i class="fab fa-css3-alt overlay-icon" title="CSS"></i>
+                          </div>
                       </div>
                   </div>
                 </div>

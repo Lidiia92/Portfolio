@@ -7,9 +7,9 @@ import {BrowserRouter as Router, Route, Switch, Redirect} from 'react-router-dom
 
 import {library, dom } from '@fortawesome/fontawesome-svg-core';
 import {faCircle, faEllipsisH, faAngleDown, faAngleUp} from '@fortawesome/free-solid-svg-icons';
-import { faGithubSquare, faLinkedin } from '@fortawesome/free-brands-svg-icons';
+import { faGithubSquare, faLinkedin, faReact, faCss3Alt } from '@fortawesome/free-brands-svg-icons';
 
-library.add(faGithubSquare, faLinkedin, faCircle, faEllipsisH, faAngleDown, faAngleUp);
+library.add(faGithubSquare, faLinkedin, faCircle, faEllipsisH, faAngleDown, faAngleUp, faReact, faCss3Alt);
 dom.watch()
 
 const Root = () => (
