@@ -15,7 +15,10 @@ dom.watch()
 const Root = () => (
     <Router>
         <Switch>
-            <Route path="/" exact component={App} />
+        <Route
+            path='/'
+            render={(props) => <App {...props} />}
+            />
             <Redirect to="/" />
         </Switch>
     </Router>

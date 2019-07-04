@@ -46,7 +46,7 @@ function ProjectsSection() {
 
   return (
     <div className="mainsection-wrapper">
-        <div className="projects-section">
+        <div id="projects" className="projects-section">
             <div className="projects-section-img">
                 <img className="projects-section__img" src={projectsVector} alt="Desktop Vector"/>
             </div>

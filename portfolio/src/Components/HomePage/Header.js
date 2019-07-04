@@ -3,13 +3,15 @@ import { Link } from "react-router-dom";
 
 
 function Header() {
+
+
   return (
     <header className="header">
        
         <div className="header-wrapper">
             <div className="header-links-container">
-                <Link to="#" className="header-link">About me</Link>
-                <Link to="#" className="header-link">Projects</Link>
+                <a href="#" className="header-link">About me</a>
+                <a href="#projects" className="header-link" >Projects</a>
                 <Link to="#" className="header-link">Skills</Link>
             </div>
 
