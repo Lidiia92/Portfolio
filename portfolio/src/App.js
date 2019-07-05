@@ -5,6 +5,7 @@ import './Styles/Portfolio.css';
 import Header from './Components/HomePage/Header';
 import MainSection from './Components/HomePage/MainSection';
 import ProjectsSection from './Components/HomePage/ProjectsSection';
+import AboutMe from './Components/HomePage/AboutMe';
 
 function App(props) {
 
@@ -21,6 +22,7 @@ function App(props) {
       <Header />
       <MainSection />
       <ProjectsSection />
+      <AboutMe />
     </div>
   );
 }

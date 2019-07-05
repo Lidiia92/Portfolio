@@ -55,11 +55,11 @@ function ProjectsSection() {
   return (
     <div className="mainsection-wrapper">
         <div id="projects" className="projects-section">
-            <div className="projects-section-img">
-                <img className="projects-section__img" src={projectsVector} alt="Desktop Vector"/>
+            <div className="sections-img">
+                <img className="section-img projects-section__img" src={projectsVector} alt="Desktop Vector"/>
             </div>
 
-            <h2 className="projects-heading">My Projects</h2>
+            <h2 className="section-heading projects-heading">My Projects</h2>
 
             <div className="projects-wrapper">
 

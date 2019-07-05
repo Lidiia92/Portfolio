@@ -10,9 +10,9 @@ function Header() {
        
         <div className="header-wrapper">
             <div className="header-links-container">
-                <a href="#" className="header-link">About me</a>
+                <a href="#aboutme" className="header-link">About me</a>
                 <a href="#projects" className="header-link" >Projects</a>
-                <Link to="#" className="header-link">Skills</Link>
+                <a href="#skills" className="header-link">Skills</a>
             </div>
 
         </div>

@@ -42,6 +42,18 @@
     background: salmon; 
 }
 
+.sections-heading__sm {
+
+    text-align: center;
+    font-size: 3rem;
+}
+
+.mainsection-heading__sm {
+    background: salmon; 
+    text-shadow: 6px 2px 7px #b45c51;
+    color: #f7f7f7;
+}
+
 .mainsection-text h2{
     background: salmon; 
     text-align: center;
@@ -54,21 +66,6 @@
     text-shadow: 6px 2px 7px #b45c51;
 }
 
-.mainsection-text h3 {
-    background: salmon; 
-    text-shadow: 6px 2px 7px #b45c51;
-    text-align: center;
-    color: #f7f7f7;
-    font-size: 3rem;
-
-}
-
-.title {
-    color: whitesmoke;
-    text-align: center;
-    font-size: 3.5rem;
-    text-shadow: 6px 2px 7px #b45c51;
-}
 
 .mg-bottom {
     padding-bottom: 230px;
@@ -88,7 +85,7 @@
 
 }
 
-/* Projects Sectio */
+/* Projects Section */
 
 .projects-section {
 
@@ -96,28 +93,34 @@
   
 }
 
-.projects-section .projects-section-img {
+.sections-img {
     text-align: center;
     padding-top: 80px;
 }
 
-.projects-section__img {
+.section-img {
     width: 35%;
     height: auto;
     border-radius: 50%;
+}
+
+.projects-section__img {
     border: 8px solid rgba(45, 45, 45, .6);
 }
 
-.projects-heading {
+.section-heading {
     text-align: center;
-    background: rgb(50, 50, 50);
     font-size: 7rem;
-    color: #f7f7f7;
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 14px;
     margin-top: 30px;
     margin-bottom: 40px;
+} 
+
+.projects-heading {
+    background: rgb(50, 50, 50);
+    color: #f7f7f7;
     text-shadow: 6px 2px 7px rgba(45, 45, 45);
 }
 
@@ -274,6 +277,73 @@
     position: relative;
     top: 2px;
 }
+
+/*About Me Section */ 
+
+.aboutme-section {
+    background: whitesmoke;
+}
+
+.aboutme-section__img {
+    border: 8px solid rgba(220, 220, 220, .6);
+}
+
+.aboutme-heading {
+    background:whitesmoke;
+    color: salmon;
+    text-shadow: 6px 2px 7px rgba(220, 220, 220, .6);
+}
+
+.aboutme-wrapper {
+    width: 80%;
+    margin: 40px auto 40px auto;
+    background: whitesmoke;
+    display: flex;
+    justify-content: space-around;
+}
+
+.aboutme-heading__sm {
+    text-align: left;
+    background: inherit;
+    color: salmon;
+    text-shadow: 6px 2px 7px rgba(220, 220, 220, .6);
+    margin-bottom: 30px;
+}
+
+.aboutme-description-wrapper {
+    width: 50%;
+}
+
+.aboutme-description {
+    font-size: 2rem;
+    color: rgb(50, 50, 50);
+    background: inherit;
+}
+
+.mg-bottom__sm {
+    margin-bottom: 20px;
+}
+
+.aboutme-skills {
+    margin-left: 23px;
+    background: whitesmoke;
+    font-size: 2rem;
+    display: flex;
+    justify-content: space-between;
+    min-width: 300px;
+}
+
+.skills-column {
+    list-style-type: circle;
+    color: salmon;
+    text-shadow: 6px 2px 7px rgba(220, 220, 220, .6);
+    background: inherit;
+}
+
+.aboutme-skills span {
+    color: rgb(50, 50, 50);
+}
+
 
 
 
