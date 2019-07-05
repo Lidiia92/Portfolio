@@ -3,7 +3,9 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 import projectsVector from '../../images/projects-vector2.jpg'; 
 import challengejs from '../../images/challengejs.jpg';
+import droom from '../../images/droom.jpg';
 import graphql from '../../images/graphql.png';
+import mongo from '../../images/mongo.png';
 
 
 
@@ -88,27 +90,31 @@ function ProjectsSection() {
               <div className="project">
                 <button className="toggle-overlay" onClick={addClassHandler2}>{classesProject2 ? <FontAwesomeIcon className="arrow" icon="angle-up"/> : <FontAwesomeIcon className="arrow" icon="angle-down"/>}</button>
                 <div className="project-img__container">
-                  <img className="project-img" src={challengejs}/>
+                  <img className="project-img" src={droom}/>
                   <div className={classesProject2 ? `project-overlay project-overlay__open` : `project-overlay`}>
                       <div className="overlay-text">
                           <div>
-                            <p className="overlay-text-description">Desktop View</p>
+                            <p className="overlay-text-description">Responsive</p>
                             <i className="fas fa-circle overlay-circle"></i>
-                            <p className="overlay-text-description">Front-End</p>
+                            <p className="overlay-text-description">Full-Stack</p>
                           </div>
+                          <p className="overlay-text-description">In Progress</p>
                           <div className="overlay-icons">
+                            <i className="fab fa-node-js overlay-icon mg-right" title="Node.js"></i>
+                            <img src={graphql} className="overlay-icon__img mg-right" title="GraphQL"/>
+                            <img src={mongo} className="overlay-icon__img mg-right" title="MongoDB"/>
                             <i className="fab fa-react overlay-icon mg-right" title="React"></i>
-                            <i class="fab fa-css3-alt overlay-icon" title="CSS"></i>
+                            <i className="fab fa-css3-alt overlay-icon" title="CSS"></i>
                           </div>
                       </div>
                   </div>
                 </div>
                 <div className="project-text">
-                  <h3 className="project-text__heading">ChallengeJS</h3>
+                  <h3 className="project-text__heading">Droom</h3>
                   <div>
-                    <a className="project-link" href="https://clone-coding-client.herokuapp.com/" target="_blank">Live Site</a>
+                    <a className="project-link" href="https://react-apollo-droom.herokuapp.com/" target="_blank">Live Site</a>
                     <i className="fas fa-circle project-circle"></i>
-                    <a className="project-link" href="https://github.com/labs13-clone/front-end" target="_blank">Project Repository</a>
+                    <a className="project-link" href="https://github.com/Lidiia92/Droom" target="_blank">Project Repository</a>
                   </div>
                 </div>
               </div>
