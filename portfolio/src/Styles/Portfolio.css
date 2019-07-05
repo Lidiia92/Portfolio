@@ -139,7 +139,7 @@
 
 .project-text {
     background: salmon;
-    margin-top: -3px;
+    margin-top: -4px;
     display: flex;
     justify-content: space-around;
     align-items: baseline;
@@ -249,6 +249,7 @@
 .overlay-icon__img {
     width: 25px;
     height: auto;
+    align-self: baseline;
 }
 
 .mg-right {
@@ -256,16 +257,22 @@
 }
 
 .png-icon {
-    align-self: flex-start;
+    align-self: baseline;
     height: 24.5px;
 }
 
 .overlay-emoji {
+    background: none;
     color: transparent;
     text-shadow: 0 0 0 rgb(50,50,50);;
     font-size: 2rem;
     position: relative;
     bottom: 7px;
+}
+
+.webpack {
+    position: relative;
+    top: 2px;
 }
 
 

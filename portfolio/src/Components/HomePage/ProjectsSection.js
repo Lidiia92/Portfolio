@@ -5,10 +5,13 @@ import projectsVector from '../../images/projects-vector2.jpg';
 import challengejs from '../../images/challengejs.jpg';
 import droom from '../../images/droom.jpg';
 import waterMyPlants from '../../images/water-my-plants.jpg';
+import clearView from '../../images/clear-view.jpg';
+import instaClone from '../../images/insta-clone.jpg';
 
 import graphql from '../../images/graphql.png';
 import mongo from '../../images/mongo.png';
 import sqlite from '../../images/sqlite.png';
+import webpack from '../../images/webpack.png';
 
 
 
@@ -158,7 +161,7 @@ function ProjectsSection() {
               <div className="project">
                 <button className="toggle-overlay" onClick={addClassHandler4}>{classesProject4 ? <FontAwesomeIcon className="arrow" icon="angle-up"/> : <FontAwesomeIcon className="arrow" icon="angle-down"/>}</button>
                 <div className="project-img__container">
-                  <img className="project-img" src={challengejs}/>
+                  <img className="project-img" src={clearView}/>
                   <div className={classesProject4 ? `project-overlay project-overlay__open` : `project-overlay`}>
                       <div className="overlay-text">
                           <div>
@@ -167,7 +170,10 @@ function ProjectsSection() {
                             <p className="overlay-text-description">Front-End</p>
                           </div>
                           <div className="overlay-icons">
-                            <i className="fab fa-react overlay-icon mg-right" title="React"></i>
+                            <i class="fab fa-js overlay-icon mg-right" title="JavaScript"></i>
+                            <i class="fab fa-gulp overlay-icon mg-right" title="Gulp.js"></i>
+                            <img src={webpack} className="overlay-icon__img mg-right webpack" title="Webpack"/>
+                            <i class="fab fa-html5 overlay-icon mg-right" title="HTML"></i>
                             <i class="fab fa-css3-alt overlay-icon" title="CSS"></i>
                           </div>
                       </div>
@@ -176,9 +182,9 @@ function ProjectsSection() {
                 <div className="project-text">
                   <h3 className="project-text__heading">Clear View Escapes</h3>
                   <div>
-                    <a className="project-link" href="https://clone-coding-client.herokuapp.com/" target="_blank">Live Site</a>
+                    <a className="project-link" href="https://travel-site-clear-view.netlify.com/" target="_blank">Live Site</a>
                     <i className="fas fa-circle project-circle"></i>
-                    <a className="project-link" href="https://github.com/labs13-clone/front-end" target="_blank">Project Repository</a>
+                    <a className="project-link" href="https://github.com/Lidiia92/Travel-site" target="_blank">Project Repository</a>
                   </div>
                 </div>
               </div>
@@ -188,7 +194,7 @@ function ProjectsSection() {
               <div className="project">
                 <button className="toggle-overlay" onClick={addClassHandler5}>{classesProject5 ? <FontAwesomeIcon className="arrow" icon="angle-up"/> : <FontAwesomeIcon className="arrow" icon="angle-down"/>}</button>
                 <div className="project-img__container">
-                  <img className="project-img" src={challengejs}/>
+                  <img className="project-img" src={instaClone}/>
                   <div className={classesProject5 ? `project-overlay project-overlay__open` : `project-overlay`}>
                       <div className="overlay-text">
                           <div>
@@ -198,17 +204,18 @@ function ProjectsSection() {
                           </div>
                           <div className="overlay-icons">
                             <i className="fab fa-react overlay-icon mg-right" title="React"></i>
+                            <p className="overlay-emoji mg-right" title="Styled Componets">💅</p>
                             <i class="fab fa-css3-alt overlay-icon" title="CSS"></i>
                           </div>
                       </div>
                   </div>
                 </div>
                 <div className="project-text">
-                  <h3 className="project-text__heading">ChallengeJS</h3>
+                  <h3 className="project-text__heading">Instagram Clone</h3>
                   <div>
-                    <a className="project-link" href="https://clone-coding-client.herokuapp.com/" target="_blank">Live Site</a>
+                    <a className="project-link" href="https://insta-clone-react.netlify.com/" target="_blank">Live Site</a>
                     <i className="fas fa-circle project-circle"></i>
-                    <a className="project-link" href="https://github.com/labs13-clone/front-end" target="_blank">Project Repository</a>
+                    <a className="project-link" href="https://github.com/Lidiia92/React-Insta-Clone" target="_blank">Project Repository</a>
                   </div>
                 </div>
               </div>

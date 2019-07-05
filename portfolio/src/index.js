@@ -6,10 +6,10 @@ import App from './App';
 import {BrowserRouter as Router, Route, Switch, Redirect} from 'react-router-dom';
 
 import {library, dom } from '@fortawesome/fontawesome-svg-core';
-import {faCircle, faEllipsisH, faAngleDown, faAngleUp, faDatabase} from '@fortawesome/free-solid-svg-icons';
-import { faGithubSquare, faLinkedin, faReact, faCss3Alt, faNodeJs } from '@fortawesome/free-brands-svg-icons';
+import {faCircle, faEllipsisH, faAngleDown, faAngleUp} from '@fortawesome/free-solid-svg-icons';
+import { faGithubSquare, faLinkedin, faReact, faCss3Alt, faNodeJs, faJs, faGulp, faHtml5 } from '@fortawesome/free-brands-svg-icons';
 
-library.add(faGithubSquare, faLinkedin, faCircle, faEllipsisH, faAngleDown, faAngleUp, faReact, faCss3Alt, faNodeJs, faDatabase);
+library.add(faGithubSquare, faLinkedin, faCircle, faEllipsisH, faAngleDown, faAngleUp, faReact, faCss3Alt, faNodeJs, faJs, faGulp, faHtml5);
 dom.watch()
 
 const Root = () => (
