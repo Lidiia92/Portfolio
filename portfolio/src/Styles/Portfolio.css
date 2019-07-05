@@ -255,6 +255,19 @@
     margin-right: 15px;
 }
 
+.png-icon {
+    align-self: flex-start;
+    height: 24.5px;
+}
+
+.overlay-emoji {
+    color: transparent;
+    text-shadow: 0 0 0 rgb(50,50,50);;
+    font-size: 2rem;
+    position: relative;
+    bottom: 7px;
+}
+
 
 
 

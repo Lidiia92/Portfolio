@@ -4,8 +4,11 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import projectsVector from '../../images/projects-vector2.jpg'; 
 import challengejs from '../../images/challengejs.jpg';
 import droom from '../../images/droom.jpg';
+import waterMyPlants from '../../images/water-my-plants.jpg';
+
 import graphql from '../../images/graphql.png';
 import mongo from '../../images/mongo.png';
+import sqlite from '../../images/sqlite.png';
 
 
 
@@ -123,15 +126,18 @@ function ProjectsSection() {
               <div className="project">
                 <button className="toggle-overlay" onClick={addClassHandler3}>{classesProject3 ? <FontAwesomeIcon className="arrow" icon="angle-up"/> : <FontAwesomeIcon className="arrow" icon="angle-down"/>}</button>
                 <div className="project-img__container">
-                  <img className="project-img" src={challengejs}/>
+                  <img className="project-img" src={waterMyPlants}/>
                   <div className={classesProject3 ? `project-overlay project-overlay__open` : `project-overlay`}>
                       <div className="overlay-text">
                           <div>
                             <p className="overlay-text-description">Desktop View</p>
                             <i className="fas fa-circle overlay-circle"></i>
-                            <p className="overlay-text-description">Front-End</p>
+                            <p className="overlay-text-description">Full-Stack</p>
                           </div>
                           <div className="overlay-icons">
+                            <i className="fab fa-node-js overlay-icon mg-right" title="Node.js"></i>
+                            <img src={sqlite} className="overlay-icon__img mg-right png-icon" title="SQLite"/>
+                            <p className="overlay-emoji mg-right" title="Styled Componets">💅</p>
                             <i className="fab fa-react overlay-icon mg-right" title="React"></i>
                             <i class="fab fa-css3-alt overlay-icon" title="CSS"></i>
                           </div>
@@ -139,11 +145,11 @@ function ProjectsSection() {
                   </div>
                 </div>
                 <div className="project-text">
-                  <h3 className="project-text__heading">ChallengeJS</h3>
+                  <h3 className="project-text__heading">Water My Plants</h3>
                   <div>
-                    <a className="project-link" href="https://clone-coding-client.herokuapp.com/" target="_blank">Live Site</a>
+                    <a className="project-link" href="https://water-plants.netlify.com/" target="_blank">Live Site</a>
                     <i className="fas fa-circle project-circle"></i>
-                    <a className="project-link" href="https://github.com/labs13-clone/front-end" target="_blank">Project Repository</a>
+                    <a className="project-link" href="https://github.com/Lidiia92/Water_the_Plants_react" target="_blank">Project Repository</a>
                   </div>
                 </div>
               </div>
@@ -156,7 +162,7 @@ function ProjectsSection() {
                   <div className={classesProject4 ? `project-overlay project-overlay__open` : `project-overlay`}>
                       <div className="overlay-text">
                           <div>
-                            <p className="overlay-text-description">Desktop View</p>
+                            <p className="overlay-text-description">Responsive</p>
                             <i className="fas fa-circle overlay-circle"></i>
                             <p className="overlay-text-description">Front-End</p>
                           </div>
@@ -168,7 +174,7 @@ function ProjectsSection() {
                   </div>
                 </div>
                 <div className="project-text">
-                  <h3 className="project-text__heading">ChallengeJS</h3>
+                  <h3 className="project-text__heading">Clear View Escapes</h3>
                   <div>
                     <a className="project-link" href="https://clone-coding-client.herokuapp.com/" target="_blank">Live Site</a>
                     <i className="fas fa-circle project-circle"></i>
