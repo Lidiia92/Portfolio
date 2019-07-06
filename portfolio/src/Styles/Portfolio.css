@@ -43,7 +43,6 @@
 }
 
 .sections-heading__sm {
-
     text-align: center;
     font-size: 3rem;
 }
@@ -296,7 +295,8 @@
 
 .aboutme-wrapper {
     width: 80%;
-    margin: 40px auto 40px auto;
+    margin: 40px auto 0 auto;
+    padding-bottom: 60px;
     background: whitesmoke;
     display: flex;
     justify-content: space-around;
@@ -341,6 +341,42 @@
 }
 
 .aboutme-skills span {
+    color: rgb(50, 50, 50);
+}
+
+
+/* Contact Section */
+
+.contact-section {
+    background: salmon;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 30px;
+}
+
+.email {
+    font-size: 2rem;
+}
+
+.contact-icon {
+    font-size: 4rem;
+}
+
+
+.attribute {
+    display: block;
+    font-size: 1.6rem;
+    text-decoration: none;
+    padding-right: 40px;
+    text-align: right;
+}
+
+.pd-bottom {
+    padding-bottom: 40px;
+}
+
+.link {
+    text-decoration: none;
     color: rgb(50, 50, 50);
 }
 

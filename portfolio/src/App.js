@@ -6,6 +6,7 @@ import Header from './Components/HomePage/Header';
 import MainSection from './Components/HomePage/MainSection';
 import ProjectsSection from './Components/HomePage/ProjectsSection';
 import AboutMe from './Components/HomePage/AboutMe';
+import Contact from './Components/HomePage/Contact';
 
 function App(props) {
 
@@ -23,6 +24,7 @@ function App(props) {
       <MainSection />
       <ProjectsSection />
       <AboutMe />
+      <Contact />
     </div>
   );
 }
