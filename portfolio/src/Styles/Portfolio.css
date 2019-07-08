@@ -414,13 +414,7 @@
         width: 50%;
     }
 
-    .aboutme-skills {
-        width: 45%; 
-    }
 
-    .skills-column {
-        width: 46%;
-    }
 }
 
 
@@ -436,15 +430,7 @@
         margin-right: auto;
     }
 
-    .skills-wrapper {
-        width: 95%;
-        margin-left: auto;
-        margin-right: auto;
-    }
-    
-    .aboutme-skills {
-         width: 80%; 
-     }
+
 }
 
 
@@ -490,6 +476,9 @@
 
     .aboutme-skills {
         margin-left: 0;
+        min-width: 300px;
+        max-width: 400px;
+        margin-left: 20px;
     }
 
 
@@ -498,6 +487,17 @@
 @media (max-width: 376px) {
     .mainsection-text h2, .section-heading  {
         font-size: 3rem;
+    }
+
+    .aboutme-skills {
+        margin-left: 20px;
+        min-width: 250px;
+        max-width: 300px;
+        font-size: 1.6rem;
+    }
+
+    .skills-column:first-child() {
+        margin-right: 34px;
     }
 }
 
