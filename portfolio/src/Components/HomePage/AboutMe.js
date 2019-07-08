@@ -11,7 +11,7 @@ function AboutMe() {
     <div className="mainsection-wrapper">
         <div id="aboutme" className="aboutme-section">
             <div className="sections-img">
-                <img className="section-img aboutme-section__img" src={aboutMe} alt="Desktop Vector"/>
+                <img className="section-img aboutme-section__img" src={aboutMe} alt="Girl Face Vector"/>
             </div>
 
             <h2 className="section-heading aboutme-heading">About Me</h2>
