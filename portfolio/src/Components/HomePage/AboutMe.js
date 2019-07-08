@@ -23,7 +23,7 @@ function AboutMe() {
                     <p className="aboutme-description mg-bottom__sm">I've been programming for about a year and a half now. Attending programming school and doing a lot of self-learning.</p>
                     <p className="aboutme-description">Feel free to contact me on my email or on my LinkedIn. Also don't forget to check my GitHub. It has a lot of cool stuff there. 🙂</p>
                 </div>
-                <div>
+                <div className="skills-wrapper">
                     <h3 id="skills" className="sections-heading__sm aboutme-heading__sm">Skills</h3>
                     <div className="aboutme-skills">
                         <ul className="skills-column">
