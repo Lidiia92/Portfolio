@@ -154,6 +154,7 @@
     text-shadow: 6px 2px 7px #b45c51;
     color: #f7f7f7;
     font-size: 2.5rem;
+    width: 50%;
     
 }
 
@@ -220,25 +221,49 @@
     flex-direction: column;
 }
 
+.overlay-text-container {
+    width: 100%;
+}
+
+.overlay-text-flex {
+    display: flex;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    font-size: 1.9rem;
+    
+}
+
+.overlay-text-flex span {
+    text-align: center;
+    width: 5%;
+    margin-left: 10px;
+    margin-right: 5px;
+
+}
+
 .overlay-text-description {
     color: rgb(50,50,50);
     font-size: 1.9rem;
     background: none;
-    display: inline-block;
+    width: 45%;
+    text-align: center;
 }
+
+
+
 
 .overlay-circle {
     font-size: .8rem;
-    margin-right: 8px;
-    margin-left: 8px;
     color: rgb(50,50,50);
-    margin-bottom: 2px;
-    display: inline-block;
+    margin-top: 12px;
 }
 
 .overlay-icons {
     margin-top: 10px;
     display: flex;
+    justify-content: center;
     align-items: baseline;
 }
 
@@ -434,6 +459,7 @@
 
     .section-heading  {
         font-size: 5rem;
+        padding-left: 8px;
     }
 
 }

@@ -70,14 +70,17 @@ function ProjectsSection() {
                   <img className="project-img" src={challengejs} alt="ChallengeJS Project"/>
                   <div className={classesProject1 ? `project-overlay project-overlay__open` : `project-overlay`}>
                       <div className="overlay-text">
-                          <div>
-                            <p className="overlay-text-description">Desktop View</p>
-                            <i className="fas fa-circle overlay-circle"></i>
-                            <p className="overlay-text-description">Front-End</p>
-                          </div>
-                          <div className="overlay-icons">
-                            <i className="fab fa-react overlay-icon mg-right" title="React"></i>
-                            <i class="fab fa-css3-alt overlay-icon" title="CSS"></i>
+                          <div className="overlay-text-container">
+                            <div className="overlay-text-flex ">
+                              <p className="overlay-text-description align-right">Desktop View</p>
+                              <span><i className="fas fa-circle overlay-circle"></i></span>
+                              <p className="overlay-text-description align-left">Front-End</p>
+                            </div>
+
+                            <div className="overlay-icons">
+                              <i className="fab fa-react overlay-icon mg-right" title="React"></i>
+                              <i class="fab fa-css3-alt overlay-icon" title="CSS"></i>
+                            </div>
                           </div>
                       </div>
                   </div>
@@ -98,21 +101,27 @@ function ProjectsSection() {
                 <div className="project-img__container">
                   <img className="project-img" src={droom} alt="Droom Project"/>
                   <div className={classesProject2 ? `project-overlay project-overlay__open` : `project-overlay`}>
-                      <div className="overlay-text">
-                          <div>
-                            <p className="overlay-text-description">Responsive</p>
-                            <i className="fas fa-circle overlay-circle"></i>
-                            <p className="overlay-text-description">Full-Stack</p>
-                          </div>
-                          <p className="overlay-text-description">In Progress</p>
-                          <div className="overlay-icons">
-                            <i className="fab fa-node-js overlay-icon mg-right" title="Node.js"></i>
-                            <img src={graphql} className="overlay-icon__img mg-right" title="GraphQL"/>
-                            <img src={mongo} className="overlay-icon__img mg-right" title="MongoDB"/>
-                            <i className="fab fa-react overlay-icon mg-right" title="React"></i>
-                            <i className="fab fa-css3-alt overlay-icon" title="CSS"></i>
+                     
+                    <div className="overlay-text">
+                          <div className="overlay-text-container">
+                            <div className="overlay-text-flex ">
+                              <p className="overlay-text-description ">Desktop View</p>
+                              <span><i className="fas fa-circle overlay-circle"></i></span>
+                              <p className="overlay-text-description ">Front-End</p>
+                            </div>
+
+                            <p className="overlay-text-flex">In Progress</p>
+
+                            <div className="overlay-icons">
+                              <i className="fab fa-node-js overlay-icon mg-right" title="Node.js"></i>
+                              <img src={graphql} className="overlay-icon__img mg-right" title="GraphQL"/>
+                              <img src={mongo} className="overlay-icon__img mg-right" title="MongoDB"/>
+                              <i className="fab fa-react overlay-icon mg-right" title="React"></i>
+                              <i className="fab fa-css3-alt overlay-icon" title="CSS"></i>
+                            </div>
                           </div>
                       </div>
+                     
                   </div>
                 </div>
                 <div className="project-text">
