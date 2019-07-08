@@ -476,7 +476,7 @@
 
     .aboutme-skills {
         margin-left: 0;
-        min-width: 300px;
+        min-width: 320px;
         max-width: 400px;
         margin-left: 20px;
     }
@@ -491,13 +491,13 @@
 
     .aboutme-skills {
         margin-left: 20px;
-        min-width: 250px;
+        min-width: 230px;
         max-width: 300px;
         font-size: 1.6rem;
     }
 
     .skills-column:first-child() {
-        margin-right: 34px;
+        margin-right: 47px;
     }
 }
 
