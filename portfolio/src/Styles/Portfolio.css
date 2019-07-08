@@ -232,6 +232,7 @@
     margin-right: auto;
     justify-content: center;
     font-size: 1.9rem;
+    align-items: center;
     
 }
 
@@ -252,12 +253,10 @@
 }
 
 
-
-
 .overlay-circle {
     font-size: .8rem;
     color: rgb(50,50,50);
-    margin-top: 12px;
+    margin-bottom: 3px;
 }
 
 .overlay-icons {
@@ -460,6 +459,10 @@
     .section-heading  {
         font-size: 5rem;
         padding-left: 8px;
+    }
+
+    .overlay-text-flex {
+        width: 80%;
     }
 
 }
