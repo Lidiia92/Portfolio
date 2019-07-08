@@ -354,7 +354,8 @@
     font-size: 2rem;
     display: flex;
     justify-content: space-between;
-    min-width: 400px;
+    min-width: 380px;
+    margin-left: 50px;
 }
 
 .skills-column {
