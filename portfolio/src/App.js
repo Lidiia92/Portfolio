@@ -13,7 +13,7 @@ function App(props) {
   useEffect(() => {
     //window.scroll(0, 0);
     props.history.push("/");
-  }, [])
+  }, [props.history]);
 
 
 

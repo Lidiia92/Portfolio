@@ -67,7 +67,7 @@ function ProjectsSection() {
               <div className="project">
                 <button className="toggle-overlay" onClick={addClassHandler1}>{classesProject1 ? <FontAwesomeIcon className="arrow" icon="angle-up"/> : <FontAwesomeIcon className="arrow" icon="angle-down"/>}</button>
                 <div className="project-img__container">
-                  <img className="project-img" src={challengejs}/>
+                  <img className="project-img" src={challengejs} alt="ChallengeJS Project"/>
                   <div className={classesProject1 ? `project-overlay project-overlay__open` : `project-overlay`}>
                       <div className="overlay-text">
                           <div>
@@ -85,9 +85,9 @@ function ProjectsSection() {
                 <div className="project-text">
                   <h3 className="project-text__heading">ChallengeJS</h3>
                   <div>
-                    <a className="project-link" href="https://clone-coding-client.herokuapp.com/" target="_blank">Live Site</a>
+                    <a className="project-link" href="https://clone-coding-client.herokuapp.com/" target="_blank" rel="noopener noreferrer">Live Site</a>
                     <i className="fas fa-circle project-circle"></i>
-                    <a className="project-link" href="https://github.com/labs13-clone/front-end" target="_blank">Project Repository</a>
+                    <a className="project-link" href="https://github.com/labs13-clone/front-end" target="_blank" rel="noopener noreferrer">Project Repository</a>
                   </div>
                 </div>
               </div>
@@ -96,7 +96,7 @@ function ProjectsSection() {
               <div className="project">
                 <button className="toggle-overlay" onClick={addClassHandler2}>{classesProject2 ? <FontAwesomeIcon className="arrow" icon="angle-up"/> : <FontAwesomeIcon className="arrow" icon="angle-down"/>}</button>
                 <div className="project-img__container">
-                  <img className="project-img" src={droom}/>
+                  <img className="project-img" src={droom} alt="Droom Project"/>
                   <div className={classesProject2 ? `project-overlay project-overlay__open` : `project-overlay`}>
                       <div className="overlay-text">
                           <div>
@@ -118,9 +118,9 @@ function ProjectsSection() {
                 <div className="project-text">
                   <h3 className="project-text__heading">Droom</h3>
                   <div>
-                    <a className="project-link" href="https://react-apollo-droom.herokuapp.com/" target="_blank">Live Site</a>
+                    <a className="project-link" href="https://react-apollo-droom.herokuapp.com/" target="_blank" rel="noopener noreferrer">Live Site</a>
                     <i className="fas fa-circle project-circle"></i>
-                    <a className="project-link" href="https://github.com/Lidiia92/Droom" target="_blank">Project Repository</a>
+                    <a className="project-link" href="https://github.com/Lidiia92/Droom" target="_blank" rel="noopener noreferrer">Project Repository</a>
                   </div>
                 </div>
               </div>
@@ -129,7 +129,7 @@ function ProjectsSection() {
               <div className="project">
                 <button className="toggle-overlay" onClick={addClassHandler3}>{classesProject3 ? <FontAwesomeIcon className="arrow" icon="angle-up"/> : <FontAwesomeIcon className="arrow" icon="angle-down"/>}</button>
                 <div className="project-img__container">
-                  <img className="project-img" src={waterMyPlants}/>
+                  <img className="project-img" src={waterMyPlants} alt="Water My Plants Project"/>
                   <div className={classesProject3 ? `project-overlay project-overlay__open` : `project-overlay`}>
                       <div className="overlay-text">
                           <div>
@@ -150,9 +150,9 @@ function ProjectsSection() {
                 <div className="project-text">
                   <h3 className="project-text__heading">Water My Plants</h3>
                   <div>
-                    <a className="project-link" href="https://water-plants.netlify.com/" target="_blank">Live Site</a>
+                    <a className="project-link" href="https://water-plants.netlify.com/" target="_blank" rel="noopener noreferrer">Live Site</a>
                     <i className="fas fa-circle project-circle"></i>
-                    <a className="project-link" href="https://github.com/Lidiia92/Water_the_Plants_react" target="_blank">Project Repository</a>
+                    <a className="project-link" href="https://github.com/Lidiia92/Water_the_Plants_react" target="_blank" rel="noopener noreferrer">Project Repository</a>
                   </div>
                 </div>
               </div>
@@ -161,7 +161,7 @@ function ProjectsSection() {
               <div className="project">
                 <button className="toggle-overlay" onClick={addClassHandler4}>{classesProject4 ? <FontAwesomeIcon className="arrow" icon="angle-up"/> : <FontAwesomeIcon className="arrow" icon="angle-down"/>}</button>
                 <div className="project-img__container">
-                  <img className="project-img" src={clearView}/>
+                  <img className="project-img" src={clearView} alt="Clear View Escapes Project"/>
                   <div className={classesProject4 ? `project-overlay project-overlay__open` : `project-overlay`}>
                       <div className="overlay-text">
                           <div>
@@ -182,9 +182,9 @@ function ProjectsSection() {
                 <div className="project-text">
                   <h3 className="project-text__heading">Clear View Escapes</h3>
                   <div>
-                    <a className="project-link" href="https://travel-site-clear-view.netlify.com/" target="_blank">Live Site</a>
+                    <a className="project-link" href="https://travel-site-clear-view.netlify.com/" target="_blank" rel="noopener noreferrer">Live Site</a>
                     <i className="fas fa-circle project-circle"></i>
-                    <a className="project-link" href="https://github.com/Lidiia92/Travel-site" target="_blank">Project Repository</a>
+                    <a className="project-link" href="https://github.com/Lidiia92/Travel-site" target="_blank" rel="noopener noreferrer">Project Repository</a>
                   </div>
                 </div>
               </div>
@@ -194,7 +194,7 @@ function ProjectsSection() {
               <div className="project">
                 <button className="toggle-overlay" onClick={addClassHandler5}>{classesProject5 ? <FontAwesomeIcon className="arrow" icon="angle-up"/> : <FontAwesomeIcon className="arrow" icon="angle-down"/>}</button>
                 <div className="project-img__container">
-                  <img className="project-img" src={instaClone}/>
+                  <img className="project-img" src={instaClone} alt="Instagram Clone Project"/>
                   <div className={classesProject5 ? `project-overlay project-overlay__open` : `project-overlay`}>
                       <div className="overlay-text">
                           <div>
@@ -213,9 +213,9 @@ function ProjectsSection() {
                 <div className="project-text">
                   <h3 className="project-text__heading">Instagram Clone</h3>
                   <div>
-                    <a className="project-link" href="https://insta-clone-react.netlify.com/" target="_blank">Live Site</a>
+                    <a className="project-link" href="https://insta-clone-react.netlify.com/" target="_blank" rel="noopener noreferrer">Live Site</a>
                     <i className="fas fa-circle project-circle"></i>
-                    <a className="project-link" href="https://github.com/Lidiia92/React-Insta-Clone" target="_blank">Project Repository</a>
+                    <a className="project-link" href="https://github.com/Lidiia92/React-Insta-Clone" target="_blank" rel="noopener noreferrer">Project Repository</a>
                   </div>
                 </div>
               </div>
