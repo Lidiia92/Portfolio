@@ -26,7 +26,7 @@ function AboutMe() {
                 <div className="skills-wrapper">
                     <h3 id="skills" className="sections-heading__sm aboutme-heading__sm">Skills</h3>
                     <div className="aboutme-skills">
-                        <ul className="skills-column">
+                        <ul className="skills-column margin-right">
                             <li><span>HTML</span></li>
                             <li><span>CSS</span></li>
                             <li><span>Sass</span></li>

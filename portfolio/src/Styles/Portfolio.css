@@ -482,6 +482,10 @@
         font-size: 1.6rem;
     }
 
+    .margin-right {
+        margin-right: 40px;
+    }
+
 
 }
 
@@ -497,9 +501,6 @@
         font-size: 1.6rem;
     }
 
-    .skills-column:first-child() {
-        margin-right: 47px;
-    }
 }
 
 
