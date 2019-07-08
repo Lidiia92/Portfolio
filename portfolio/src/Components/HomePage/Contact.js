@@ -8,8 +8,8 @@ function Contact() {
   return (
     <div className="mainsection-wrapper">
         <div id="contact" className="contact-section">
-          <a href="https://www.linkedin.com/in/lidiia-gallagher-4aa8a6140/" target="_blank"><i class="fab fa-linkedin mainsection-heading__sm contact-icon mg-right"></i></a>
-          <i class="fab fa-github-square mainsection-heading__sm contact-icon"></i>
+          <a href="https://www.linkedin.com/in/lidiia-gallagher-4aa8a6140/" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin mainsection-heading__sm contact-icon mg-right"></i></a>
+          <a href="https://github.com/Lidiia92" target="_blank" rel="noopener noreferrer"><i class="fab fa-github-square mainsection-heading__sm contact-icon"></i></a>
           <h3 className="mainsection-heading__sm email">lidiiany92@gmail.com</h3>
         </div>
         <div >
