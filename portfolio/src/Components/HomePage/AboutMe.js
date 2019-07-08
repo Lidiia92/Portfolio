@@ -8,7 +8,7 @@ function AboutMe() {
  
 
   return (
-    <div className="mainsection-wrapper">
+    <div >
         <div id="aboutme" className="aboutme-section">
             <div className="sections-img">
                 <img className="section-img aboutme-section__img" src={aboutMe} alt="Girl Face Vector"/>

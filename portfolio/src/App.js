@@ -19,13 +19,13 @@ function App(props) {
 
 
   return (
-    <div className="app" >
+    <>
       <Header />
       <MainSection />
       <ProjectsSection />
       <AboutMe />
       <Contact />
-    </div>
+    </>
   );
 }
 

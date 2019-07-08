@@ -6,14 +6,14 @@
     z-index: 5;
     position: fixed;
     top: 0;
-    right: 0;
     left: 0;
+    width: 100%;
     background: rgb(232, 221, 211);
 }
 
 
 .header-wrapper {
-    width: 80%;
+    width: 100%;
     margin: 0 auto;
     color: rgb(50, 50, 50);
 }
@@ -38,7 +38,6 @@
 
 .mainsection-text {
     width: 100%;
-    margin: 0 auto;
     background: salmon; 
 }
 
@@ -394,11 +393,27 @@
     .header-links-container {
         width: 80%;
     }
+
+    .mainsection-text h2 {
+        font-size: 5rem;
+    }
+}
+
+@media (max-width: 780px) {
+  .aboutme-wrapper {
+      flex-direction: column;
+  }
 }
 
 @media (max-width: 500px) { 
     .header-links-container {
         width: 100%;
+    }
+}
+
+@media (max-width: 376px) {
+    .mainsection-text h2, .section-heading  {
+        font-size: 3rem;
     }
 }
 
