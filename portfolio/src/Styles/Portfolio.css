@@ -224,10 +224,6 @@
     cursor: pointer;
 }
 
-.toggle-overlay:hover {
-    background: #c8665b;
-}
-
 .arrow {
     font-size: 1.7rem;
     color: rgb(50,50,50);
