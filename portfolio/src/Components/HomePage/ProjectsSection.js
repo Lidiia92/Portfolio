@@ -65,7 +65,9 @@ function ProjectsSection() {
 
 
               <div className="project">
-                <button className="toggle-overlay" onClick={addClassHandler1}>{classesProject1 ? <FontAwesomeIcon className="arrow" icon="angle-up"/> : <FontAwesomeIcon className="arrow" icon="angle-down"/>}</button>
+                <button className="toggle-overlay" onClick={addClassHandler1}>
+                  {classesProject1 ? '' : <span className="arrow-text">View Details</span>} 
+                  {classesProject1 ? <FontAwesomeIcon className="arrow" icon="angle-up"/> : <FontAwesomeIcon className="arrow" icon="angle-down"/>}</button>
                 <div className="project-img__container">
                   <img className="project-img" src={challengejs} alt="ChallengeJS Project"/>
                   <div className={classesProject1 ? `project-overlay project-overlay__open` : `project-overlay`}>
@@ -97,7 +99,9 @@ function ProjectsSection() {
 
               
               <div className="project">
-                <button className="toggle-overlay" onClick={addClassHandler2}>{classesProject2 ? <FontAwesomeIcon className="arrow" icon="angle-up"/> : <FontAwesomeIcon className="arrow" icon="angle-down"/>}</button>
+                <button className="toggle-overlay" onClick={addClassHandler2}>
+                  {classesProject2 ? '' : <span className="arrow-text">View Details</span>} 
+                  {classesProject2 ? <FontAwesomeIcon className="arrow" icon="angle-up"/> : <FontAwesomeIcon className="arrow" icon="angle-down"/>}</button>
                 <div className="project-img__container">
                   <img className="project-img" src={droom} alt="Droom Project"/>
                   <div className={classesProject2 ? `project-overlay project-overlay__open` : `project-overlay`}>
@@ -136,7 +140,9 @@ function ProjectsSection() {
 
               
               <div className="project">
-                <button className="toggle-overlay" onClick={addClassHandler3}>{classesProject3 ? <FontAwesomeIcon className="arrow" icon="angle-up"/> : <FontAwesomeIcon className="arrow" icon="angle-down"/>}</button>
+                <button className="toggle-overlay" onClick={addClassHandler3}>
+                  {classesProject3 ? '' : <span className="arrow-text">View Details</span>} 
+                  {classesProject3 ? <FontAwesomeIcon className="arrow" icon="angle-up"/> : <FontAwesomeIcon className="arrow" icon="angle-down"/>}</button>
                 <div className="project-img__container">
                   <img className="project-img" src={waterMyPlants} alt="Water My Plants Project"/>
                   <div className={classesProject3 ? `project-overlay project-overlay__open` : `project-overlay`}>
@@ -168,7 +174,9 @@ function ProjectsSection() {
 
               
               <div className="project">
-                <button className="toggle-overlay" onClick={addClassHandler4}>{classesProject4 ? <FontAwesomeIcon className="arrow" icon="angle-up"/> : <FontAwesomeIcon className="arrow" icon="angle-down"/>}</button>
+                <button className="toggle-overlay" onClick={addClassHandler4}>
+                  {classesProject4 ? '' : <span className="arrow-text">View Details</span>} 
+                  {classesProject4 ? <FontAwesomeIcon className="arrow" icon="angle-up"/> : <FontAwesomeIcon className="arrow" icon="angle-down"/>}</button>
                 <div className="project-img__container">
                   <img className="project-img" src={clearView} alt="Clear View Escapes Project"/>
                   <div className={classesProject4 ? `project-overlay project-overlay__open` : `project-overlay`}>
@@ -201,7 +209,10 @@ function ProjectsSection() {
 
               
               <div className="project">
-                <button className="toggle-overlay" onClick={addClassHandler5}>{classesProject5 ? <FontAwesomeIcon className="arrow" icon="angle-up"/> : <FontAwesomeIcon className="arrow" icon="angle-down"/>}</button>
+                <button className="toggle-overlay" onClick={addClassHandler5}>
+                {classesProject5 ? '' : <span className="arrow-text">View Details</span>} 
+                {classesProject5 ? <FontAwesomeIcon className="arrow" icon="angle-up"/> : <FontAwesomeIcon className="arrow" icon="angle-down"/>}
+                </button>
                 <div className="project-img__container">
                   <img className="project-img" src={instaClone} alt="Instagram Clone Project"/>
                   <div className={classesProject5 ? `project-overlay project-overlay__open` : `project-overlay`}>

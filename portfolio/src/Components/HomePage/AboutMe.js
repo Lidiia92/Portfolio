@@ -24,7 +24,7 @@ function AboutMe() {
                     <p className="aboutme-description">Feel free to contact me on my email or on my LinkedIn. Also don't forget to check my GitHub. It has a lot of cool stuff there. 🙂</p>
                 </div>
                 <div className="skills-wrapper">
-                    <h3 id="skills" className="sections-heading__sm aboutme-heading__sm">Skills</h3>
+                    <h3 id="skills" className="sections-heading__sm aboutme-heading__sm mg-top__sm">Skills</h3>
                     <div className="aboutme-skills">
                         <ul className="skills-column margin-right">
                             <li><span>HTML</span></li>
