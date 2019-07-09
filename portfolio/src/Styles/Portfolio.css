@@ -575,6 +575,11 @@
         padding-bottom: 175px;
     }
 
+    .relative-emoji-mg {
+        position: relative;
+        bottom: 2px;
+    }
+
     .section-img {
         width: 60%;
     }
