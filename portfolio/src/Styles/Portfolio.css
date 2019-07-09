@@ -484,9 +484,10 @@
         width: 80%;
     }
 
-    /* .mg-left__sm {
-        margin-left: 20px;
-    } */
+    .header-link:hover {
+        color: rgb(50, 50, 50);
+    }
+
 
 }
 
@@ -499,9 +500,6 @@
         font-size: 3.5rem;
     }
 
-    /* .mg-left__sm {
-        margin-left: 12px;
-    } */
 }
 
 
@@ -514,29 +512,12 @@
         font-size: 1.6rem;
     }
 
+
     .aboutme-skills {
         flex-direction: column;
         width: 80%;
         min-width: 80%;
     }
-
-    /* .mg-left__sm {
-        margin-left: 9px;
-    } */
-
-
-    /* .aboutme-skills {
-        margin-left: 0;
-        min-width: 320px;
-        max-width: 400px;
-        margin-left: 20px;
-        font-size: 1.6rem;
-    }
-
-    .margin-right {
-        margin-right: 40px;
-    } */
-
 
 }
 
@@ -545,12 +526,7 @@
         font-size: 3rem;
     }
 
-    /* .aboutme-skills {
-        margin-left: 20px;
-        min-width: 230px;
-        max-width: 300px;
-        font-size: 1.6rem;
-    } */
+
 
 }
 
