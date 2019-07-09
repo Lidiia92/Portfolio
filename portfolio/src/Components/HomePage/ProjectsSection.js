@@ -146,20 +146,27 @@ function ProjectsSection() {
                 <div className="project-img__container">
                   <img className="project-img" src={waterMyPlants} alt="Water My Plants Project"/>
                   <div className={classesProject3 ? `project-overlay project-overlay__open` : `project-overlay`}>
-                      <div className="overlay-text">
-                          <div>
-                            <p className="overlay-text-description">Desktop View</p>
-                            <i className="fas fa-circle overlay-circle"></i>
-                            <p className="overlay-text-description">Full-Stack</p>
-                          </div>
-                          <div className="overlay-icons">
-                            <i className="fab fa-node-js overlay-icon mg-right" title="Node.js"></i>
-                            <img src={sqlite} className="overlay-icon__img mg-right png-icon" title="SQLite"/>
-                            <p className="overlay-emoji mg-right" title="Styled Componets">💅</p>
-                            <i className="fab fa-react overlay-icon mg-right" title="React"></i>
-                            <i class="fab fa-css3-alt overlay-icon" title="CSS"></i>
+
+
+                    <div className="overlay-text">
+                          <div className="overlay-text-container">
+                            <div className="overlay-text-flex ">
+                              <p className="overlay-text-description align-right">Desktop View</p>
+                              <span><i className="fas fa-circle overlay-circle"></i></span>
+                              <p className="overlay-text-description align-left">Full-Stack</p>
+                            </div>
+
+                            <div className="overlay-icons">
+                              <i className="fab fa-node-js overlay-icon mg-right" title="Node.js"></i>
+                              <img src={sqlite} className="overlay-icon__img mg-right_sm png-icon" title="SQLite"/>
+                              <p className="overlay-emoji mg-right" title="Styled Componets">💅</p>
+                              <i className="fab fa-react overlay-icon mg-right" title="React"></i>
+                              <i class="fab fa-css3-alt overlay-icon" title="CSS"></i>
+                            </div>
                           </div>
                       </div>
+
+
                   </div>
                 </div>
                 <div className="project-text">
@@ -180,20 +187,26 @@ function ProjectsSection() {
                 <div className="project-img__container">
                   <img className="project-img" src={clearView} alt="Clear View Escapes Project"/>
                   <div className={classesProject4 ? `project-overlay project-overlay__open` : `project-overlay`}>
-                      <div className="overlay-text">
-                          <div>
-                            <p className="overlay-text-description">Responsive</p>
-                            <i className="fas fa-circle overlay-circle"></i>
-                            <p className="overlay-text-description">Front-End</p>
-                          </div>
-                          <div className="overlay-icons">
-                            <i class="fab fa-js overlay-icon mg-right" title="JavaScript"></i>
-                            <i class="fab fa-gulp overlay-icon mg-right" title="Gulp.js"></i>
-                            <img src={webpack} className="overlay-icon__img mg-right webpack" title="Webpack"/>
-                            <i class="fab fa-html5 overlay-icon mg-right" title="HTML"></i>
-                            <i class="fab fa-css3-alt overlay-icon" title="CSS"></i>
+
+                     <div className="overlay-text">
+                          <div className="overlay-text-container">
+                            <div className="overlay-text-flex ">
+                              <p className="overlay-text-description align-right">Responsive</p>
+                              <span><i className="fas fa-circle overlay-circle"></i></span>
+                              <p className="overlay-text-description align-left">Front-End</p>
+                            </div>
+
+                            <div className="overlay-icons">
+                              <i class="fab fa-js overlay-icon mg-right" title="JavaScript"></i>
+                              <i class="fab fa-gulp overlay-icon mg-right" title="Gulp.js"></i>
+                              <img src={webpack} className="overlay-icon__img mg-right webpack" title="Webpack"/>
+                              <i class="fab fa-html5 overlay-icon mg-right" title="HTML"></i>
+                              <i class="fab fa-css3-alt overlay-icon" title="CSS"></i>
+                            </div>
                           </div>
                       </div>
+
+
                   </div>
                 </div>
                 <div className="project-text">
@@ -216,18 +229,25 @@ function ProjectsSection() {
                 <div className="project-img__container">
                   <img className="project-img" src={instaClone} alt="Instagram Clone Project"/>
                   <div className={classesProject5 ? `project-overlay project-overlay__open` : `project-overlay`}>
-                      <div className="overlay-text">
-                          <div>
-                            <p className="overlay-text-description">Desktop View</p>
-                            <i className="fas fa-circle overlay-circle"></i>
-                            <p className="overlay-text-description">Front-End</p>
-                          </div>
-                          <div className="overlay-icons">
-                            <i className="fab fa-react overlay-icon mg-right" title="React"></i>
-                            <p className="overlay-emoji mg-right" title="Styled Componets">💅</p>
-                            <i class="fab fa-css3-alt overlay-icon" title="CSS"></i>
+
+
+                    <div className="overlay-text">
+                          <div className="overlay-text-container">
+                            <div className="overlay-text-flex ">
+                              <p className="overlay-text-description align-right">Desktop View</p>
+                              <span><i className="fas fa-circle overlay-circle"></i></span>
+                              <p className="overlay-text-description align-left">Front-End</p>
+                            </div>
+
+                            <div className="overlay-icons">
+                              <i className="fab fa-react overlay-icon mg-right" title="React"></i>
+                              <p className="overlay-emoji mg-right" title="Styled Componets">💅</p>
+                              <i class="fab fa-css3-alt overlay-icon" title="CSS"></i>
+                            </div>
                           </div>
                       </div>
+
+
                   </div>
                 </div>
                 <div className="project-text">
