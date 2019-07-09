@@ -240,8 +240,8 @@ function ProjectsSection() {
                             </div>
 
                             <div className="overlay-icons">
-                              <i className="fab fa-react overlay-icon mg-right_sm" title="React"></i>
-                              <p className="overlay-emoji mg-right relative-emoji-mg" title="Styled Componets">💅</p>
+                              <i className="fab fa-react overlay-icon mg-right_sm relative-emoji-mg" title="React"></i>
+                              <p className="overlay-emoji mg-right" title="Styled Componets">💅</p>
                               <i class="fab fa-css3-alt overlay-icon" title="CSS"></i>
                             </div>
                           </div>
