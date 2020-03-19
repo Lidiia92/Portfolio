@@ -21,7 +21,7 @@ function AboutMe() {
         <div className="aboutme-wrapper">
           <div className="aboutme-description-wrapper">
             <h3 className="sections-heading__sm aboutme-heading__sm">
-              Hi, I'm Lidiia.
+              Hi, I'm Lidiia Gallagher.
             </h3>
             <p className="aboutme-description mg-bottom__sm">
               I am a full stack web developer who graduated from Lambda School.
@@ -41,10 +41,7 @@ function AboutMe() {
             </p>
           </div>
           <div className="skills-wrapper">
-            <h3
-              id="skills"
-              className="sections-heading__sm aboutme-heading__sm mg-top__sm"
-            >
+            <h3 className="sections-heading__sm aboutme-heading__sm mg-top__sm">
               Skills
             </h3>
             <div className="aboutme-skills">
