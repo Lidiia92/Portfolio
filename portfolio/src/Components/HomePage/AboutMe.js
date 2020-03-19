@@ -5,7 +5,7 @@ import aboutMe from "../../images/aboutme-vector.jpg";
 function AboutMe() {
   return (
     <div>
-      <div id="aboutme" className="aboutme-section">
+      <div className="aboutme-section">
         <div className="sections-img">
           <img
             className="section-img aboutme-section__img"
@@ -14,7 +14,9 @@ function AboutMe() {
           />
         </div>
 
-        <h2 className="section-heading aboutme-heading">About Me</h2>
+        <h2 className="section-heading aboutme-heading" id="aboutme">
+          About Me
+        </h2>
 
         <div className="aboutme-wrapper">
           <div className="aboutme-description-wrapper">
@@ -92,7 +94,7 @@ function AboutMe() {
                   <span>GraphQL</span>
                 </li>
                 <li>
-                  <span>Apollo</span>
+                  <span>Python</span>
                 </li>
                 <li>
                   <span>Git</span>
