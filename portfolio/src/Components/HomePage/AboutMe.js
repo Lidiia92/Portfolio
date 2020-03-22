@@ -26,7 +26,7 @@ function AboutMe() {
             <p className="aboutme-description mg-bottom__sm">
               I am a full stack web developer who graduated from Lambda School.
               I've been programming for about two years now, finished
-              programming school and doing a lot of self-learning.
+              programming school and constantly doing a lot of self-learning.
             </p>
             <p className="aboutme-description mg-bottom__sm">
               I like the process of coding. Coding is time consuming, and it is

@@ -190,7 +190,7 @@ function ProjectsSection() {
 
                   <p className="project-link no-bg">
                     <i className="fas fa-circle project-circle no-mrg"></i>{" "}
-                    Individual project{" "}
+                    Individual project.{" "}
                   </p>
 
                   <p className="project-link no-bg">
@@ -254,19 +254,8 @@ function ProjectsSection() {
                 }
               >
                 <div className="overlay-text">
-                  <div className="overlay-text-container">
-                    <div className="overlay-text-flex ">
-                      <p className="overlay-text-description align-right">
-                        Responsive
-                      </p>
-                      <span>
-                        <i className="fas fa-circle overlay-circle"></i>
-                      </span>
-                      <p className="overlay-text-description align-left">
-                        Front-End
-                      </p>
-                    </div>
-
+                  <div className="overlay-text-heading">
+                    <h2 className="overlay-text-description">Built using:</h2>
                     <div className="overlay-icons">
                       <i
                         class="fab fa-js overlay-icon mg-right"
@@ -288,6 +277,16 @@ function ProjectsSection() {
                       <i class="fab fa-css3-alt overlay-icon" title="CSS"></i>
                     </div>
                   </div>
+
+                  <p className="project-link no-bg">
+                    <i className="fas fa-circle project-circle no-mrg"></i>{" "}
+                    Individual project.{" "}
+                  </p>
+
+                  <p className="project-link no-bg">
+                    <i className="fas fa-circle project-circle no-mrg"></i>{" "}
+                    Built front end of the project.{" "}
+                  </p>
                 </div>
               </div>
             </div>
@@ -313,6 +312,10 @@ function ProjectsSection() {
                 </a>
               </div>
             </div>
+
+            <p className="project-description">
+              A prototype of a travel agency website.
+            </p>
           </div>
         </div>
       </div>
