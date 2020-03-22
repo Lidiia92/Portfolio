@@ -83,19 +83,8 @@ function ProjectsSection() {
                 }
               >
                 <div className="overlay-text">
-                  <div className="overlay-text-container">
-                    <div className="overlay-text-flex ">
-                      <p className="overlay-text-description align-right">
-                        Desktop View
-                      </p>
-                      <span>
-                        <i className="fas fa-circle overlay-circle"></i>
-                      </span>
-                      <p className="overlay-text-description align-left">
-                        Front-End
-                      </p>
-                    </div>
-
+                  <div className="overlay-text-heading">
+                    <h2 className="overlay-text-description">Built using:</h2>
                     <div className="overlay-icons">
                       <i
                         className="fab fa-react overlay-icon mg-right"
@@ -104,9 +93,20 @@ function ProjectsSection() {
                       <i class="fab fa-css3-alt overlay-icon" title="CSS"></i>
                     </div>
                   </div>
+
+                  <p className="project-link no-bg">
+                    <i className="fas fa-circle project-circle no-mrg"></i>{" "}
+                    Built on a team of 5 developers during 5 weeks time frame.{" "}
+                  </p>
+
+                  <p className="project-link no-bg">
+                    <i className="fas fa-circle project-circle no-mrg"></i>{" "}
+                    Participated in a building a front end of the project.{" "}
+                  </p>
                 </div>
               </div>
             </div>
+
             <div className="project-text">
               <h3 className="project-text__heading">ChallengeJS</h3>
               <div>
@@ -129,92 +129,10 @@ function ProjectsSection() {
                 </a>
               </div>
             </div>
-          </div>
-
-          <div className="project">
-            <button className="toggle-overlay" onClick={addClassHandler2}>
-              {classesProject2 ? (
-                ""
-              ) : (
-                <span className="arrow-text">View Details</span>
-              )}
-              {classesProject2 ? (
-                <FontAwesomeIcon className="arrow" icon="angle-up" />
-              ) : (
-                <FontAwesomeIcon className="arrow" icon="angle-down" />
-              )}
-            </button>
-            <div className="project-img__container">
-              <img className="project-img" src={droom} alt="Droom Project" />
-              <div
-                className={
-                  classesProject2
-                    ? `project-overlay project-overlay__open`
-                    : `project-overlay`
-                }
-              >
-                <div className="overlay-text">
-                  <div className="overlay-text-container">
-                    <div className="overlay-text-flex ">
-                      <p className="overlay-text-description ">Desktop View</p>
-                      <span>
-                        <i className="fas fa-circle overlay-circle"></i>
-                      </span>
-                      <p className="overlay-text-description ">Front-End</p>
-                    </div>
-
-                    <p className="overlay-text-flex">In Progress</p>
-
-                    <div className="overlay-icons">
-                      <i
-                        className="fab fa-node-js overlay-icon mg-right"
-                        title="Node.js"
-                      ></i>
-                      <img
-                        src={graphql}
-                        className="overlay-icon__img mg-right"
-                        title="GraphQL"
-                      />
-                      <img
-                        src={mongo}
-                        className="overlay-icon__img mg-right"
-                        title="MongoDB"
-                      />
-                      <i
-                        className="fab fa-react overlay-icon mg-right"
-                        title="React"
-                      ></i>
-                      <i
-                        className="fab fa-css3-alt overlay-icon"
-                        title="CSS"
-                      ></i>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="project-text">
-              <h3 className="project-text__heading">Droom</h3>
-              <div>
-                <a
-                  className="project-link"
-                  href="https://react-apollo-droom.herokuapp.com/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  Live Site
-                </a>
-                <i className="fas fa-circle project-circle"></i>
-                <a
-                  className="project-link"
-                  href="https://github.com/Lidiia92/Droom"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  Project Repository
-                </a>
-              </div>
-            </div>
+            <p className="project-description">
+              ChallengeJS is a resource for learning JavaScript by attempting
+              code challenges.
+            </p>
           </div>
 
           <div className="project">
@@ -244,19 +162,8 @@ function ProjectsSection() {
                 }
               >
                 <div className="overlay-text">
-                  <div className="overlay-text-container">
-                    <div className="overlay-text-flex ">
-                      <p className="overlay-text-description align-right">
-                        Desktop View
-                      </p>
-                      <span>
-                        <i className="fas fa-circle overlay-circle"></i>
-                      </span>
-                      <p className="overlay-text-description align-left">
-                        Full-Stack
-                      </p>
-                    </div>
-
+                  <div className="overlay-text-heading">
+                    <h2 className="overlay-text-description">Built using:</h2>
                     <div className="overlay-icons">
                       <i
                         className="fab fa-node-js overlay-icon mg-right"
@@ -280,6 +187,16 @@ function ProjectsSection() {
                       <i class="fab fa-css3-alt overlay-icon" title="CSS"></i>
                     </div>
                   </div>
+
+                  <p className="project-link no-bg">
+                    <i className="fas fa-circle project-circle no-mrg"></i>{" "}
+                    Individual project{" "}
+                  </p>
+
+                  <p className="project-link no-bg">
+                    <i className="fas fa-circle project-circle no-mrg"></i>{" "}
+                    Built back end and front end of the project.{" "}
+                  </p>
                 </div>
               </div>
             </div>
@@ -305,6 +222,9 @@ function ProjectsSection() {
                 </a>
               </div>
             </div>
+            <p className="project-description">
+              This App helps you track the watering schedule of your plants.
+            </p>
           </div>
 
           <div className="project">
@@ -386,87 +306,6 @@ function ProjectsSection() {
                 <a
                   className="project-link"
                   href="https://github.com/Lidiia92/Travel-site"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  Project Repository
-                </a>
-              </div>
-            </div>
-          </div>
-
-          <div className="project">
-            <button className="toggle-overlay" onClick={addClassHandler5}>
-              {classesProject5 ? (
-                ""
-              ) : (
-                <span className="arrow-text">View Details</span>
-              )}
-              {classesProject5 ? (
-                <FontAwesomeIcon className="arrow" icon="angle-up" />
-              ) : (
-                <FontAwesomeIcon className="arrow" icon="angle-down" />
-              )}
-            </button>
-            <div className="project-img__container">
-              <img
-                className="project-img"
-                src={instaClone}
-                alt="Instagram Clone Project"
-              />
-              <div
-                className={
-                  classesProject5
-                    ? `project-overlay project-overlay__open`
-                    : `project-overlay`
-                }
-              >
-                <div className="overlay-text">
-                  <div className="overlay-text-container">
-                    <div className="overlay-text-flex ">
-                      <p className="overlay-text-description align-right">
-                        Desktop View
-                      </p>
-                      <span>
-                        <i className="fas fa-circle overlay-circle"></i>
-                      </span>
-                      <p className="overlay-text-description align-left">
-                        Front-End
-                      </p>
-                    </div>
-
-                    <div className="overlay-icons">
-                      <i
-                        className="fab fa-react overlay-icon mg-right_sm relative-emoji-mg"
-                        title="React"
-                      ></i>
-                      <p
-                        className="overlay-emoji mg-right"
-                        title="Styled Componets"
-                      >
-                        💅
-                      </p>
-                      <i class="fab fa-css3-alt overlay-icon" title="CSS"></i>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="project-text">
-              <h3 className="project-text__heading">Instagram Clone</h3>
-              <div>
-                <a
-                  className="project-link"
-                  href="https://insta-clone-react.netlify.com/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  Live Site
-                </a>
-                <i className="fas fa-circle project-circle"></i>
-                <a
-                  className="project-link"
-                  href="https://github.com/Lidiia92/React-Insta-Clone"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
