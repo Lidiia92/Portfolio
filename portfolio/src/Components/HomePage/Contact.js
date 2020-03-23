@@ -20,8 +20,8 @@ function Contact() {
         </a>
         <h3 className="mainsection-heading__sm email">lidiiany92@gmail.com</h3>
         <a
-          href="mailto:lidiiany92@gmail.com"
-          target="_top"
+          // href="mailto:lidiiany92@gmail.com"
+          onClick={() => window.open("mailto:lidiiany92@gmail.com")}
           className="contact-btn"
         >
           Contact me
