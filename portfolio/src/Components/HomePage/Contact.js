@@ -19,7 +19,11 @@ function Contact() {
           <i class="fab fa-github-square mainsection-heading__sm contact-icon"></i>
         </a>
         <h3 className="mainsection-heading__sm email">lidiiany92@gmail.com</h3>
-        <a href="mailto:lidiiany92@gmail.com" className="contact-btn">
+        <a
+          href="mailto:lidiiany92@gmail.com"
+          target="_top"
+          className="contact-btn"
+        >
           Contact me
         </a>
       </div>
