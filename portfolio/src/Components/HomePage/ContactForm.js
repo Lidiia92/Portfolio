@@ -61,7 +61,6 @@ class ContactForm extends Component {
   };
 
   render() {
-    console.log(process.env);
     return (
       <>
         <form onSubmit={this.handleSubmit.bind(this)} className="form-wrapper">
