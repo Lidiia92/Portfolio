@@ -95,12 +95,17 @@ function ProjectsSection() {
 
                   <p className="project-link no-bg">
                     <i className="fas fa-circle project-circle no-mrg"></i>{" "}
-                    Built on a team of 5 developers during 5 weeks time frame.{" "}
+                    Built on a team of 5 developers within a 5 week time period.{" "}
                   </p>
 
                   <p className="project-link no-bg">
                     <i className="fas fa-circle project-circle no-mrg"></i>{" "}
-                    Participated in a building a front end of the project.{" "}
+                    Utilized React to develop reusable application components.{" "}
+                  </p>
+                  <p className="project-link no-bg">
+                    <i className="fas fa-circle project-circle no-mrg"></i>{" "}
+                    Worked closely with UX Designer to implement design of web
+                    pages.{" "}
                   </p>
                 </div>
               </div>
@@ -189,12 +194,13 @@ function ProjectsSection() {
 
                   <p className="project-link no-bg">
                     <i className="fas fa-circle project-circle no-mrg"></i>{" "}
-                    Individual project built during 4 weeks time frame.{" "}
+                    Individual project built within a 4 week time period.{" "}
                   </p>
 
                   <p className="project-link no-bg">
                     <i className="fas fa-circle project-circle no-mrg"></i>{" "}
-                    Implemented database schemas, server.{" "}
+                    Connected the server and designed the database schemas on
+                    the backend.{" "}
                   </p>
 
                   <p className="project-link no-bg">
@@ -284,12 +290,13 @@ function ProjectsSection() {
 
                   <p className="project-link no-bg">
                     <i className="fas fa-circle project-circle no-mrg"></i>{" "}
-                    Individual project built during 4 weeks time frame.{" "}
+                    Individual project built within a 4 week time period.{" "}
                   </p>
 
                   <p className="project-link no-bg">
                     <i className="fas fa-circle project-circle no-mrg"></i>{" "}
-                    implemented layout of the project and functionality.{" "}
+                    Developed functional and appealing web-based front end
+                    layout of the application.{" "}
                   </p>
                 </div>
               </div>
