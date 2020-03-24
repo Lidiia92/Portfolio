@@ -420,19 +420,58 @@
   color: rgb(50, 50, 50);
 }
 
+.button-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
 .contact-btn {
-  display: inline-block;
+  display: block;
   margin-top: 20px;
   background: #f7f7f7;
   box-shadow: 6px 2px 7px #b45c51;
   border: none;
   border-radius: 3px;
-  padding: 10px 20px;
+  padding: 10px 30px;
   font-size: 2rem;
   font-family: "News Cycle", sans-serif;
   font-size: 2rem;
   text-decoration: none;
   color: salmon;
+}
+
+.form-wrapper {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+
+textarea,
+input {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.contact-heading {
+  background: inherit;
+  color: whitesmoke;
+  text-shadow: 6px 2px 7px #b45c51;
+  margin-bottom: 20px;
+  font-size: 3rem;
+  width: 100%;
+  text-align: left;
+}
+
+.contact-success {
+  font-size: 2rem;
+  background-color: salmon;
+  margin-top: 15px;
 }
 
 /* Media queries */

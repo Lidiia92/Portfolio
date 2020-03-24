@@ -1,6 +1,11 @@
 import React from "react";
 
+import ContactForm from "./ContactForm";
+
 function Contact() {
+  const mailer = () => {
+    window.location.href = "mailto:lidiiany92@gmail.com";
+  };
   return (
     <div className="mainsection-wrapper">
       <div id="contact" className="contact-section">
@@ -19,13 +24,7 @@ function Contact() {
           <i class="fab fa-github-square mainsection-heading__sm contact-icon"></i>
         </a>
         <h3 className="mainsection-heading__sm email">lidiiany92@gmail.com</h3>
-        <a
-          // href="mailto:lidiiany92@gmail.com"
-          onClick={() => window.open("mailto:lidiiany92@gmail.com")}
-          className="contact-btn"
-        >
-          Contact me
-        </a>
+        <ContactForm />
       </div>
       <div>
         <p className="mainsection-heading__sm attribute pd-bottom">
