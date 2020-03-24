@@ -189,12 +189,17 @@ function ProjectsSection() {
 
                   <p className="project-link no-bg">
                     <i className="fas fa-circle project-circle no-mrg"></i>{" "}
-                    Individual project.{" "}
+                    Individual project built during 4 weeks time frame.{" "}
                   </p>
 
                   <p className="project-link no-bg">
                     <i className="fas fa-circle project-circle no-mrg"></i>{" "}
-                    Built back end and front end of the project.{" "}
+                    Implemented database schemas, server.{" "}
+                  </p>
+
+                  <p className="project-link no-bg">
+                    <i className="fas fa-circle project-circle no-mrg"></i>{" "}
+                    Designed and built front end layout.{" "}
                   </p>
                 </div>
               </div>
@@ -279,12 +284,12 @@ function ProjectsSection() {
 
                   <p className="project-link no-bg">
                     <i className="fas fa-circle project-circle no-mrg"></i>{" "}
-                    Individual project.{" "}
+                    Individual project built during 4 weeks time frame.{" "}
                   </p>
 
                   <p className="project-link no-bg">
                     <i className="fas fa-circle project-circle no-mrg"></i>{" "}
-                    Built front end of the project.{" "}
+                    implemented layout of the project and functionality.{" "}
                   </p>
                 </div>
               </div>
