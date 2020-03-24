@@ -49,11 +49,10 @@ function ProjectsSection() {
             src={projectsVector}
             alt="Desktop Vector"
           />
+          <div className="spaceholder" id="projects"></div>
         </div>
 
-        <h2 className="section-heading projects-heading" id="projects">
-          My Projects
-        </h2>
+        <h2 className="section-heading projects-heading">My Projects</h2>
 
         <div className="projects-wrapper">
           <div className="project">

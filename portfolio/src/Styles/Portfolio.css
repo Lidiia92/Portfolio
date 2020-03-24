@@ -147,6 +147,13 @@
   width: 100%;
 }
 
+.spaceholder {
+  position: relative;
+  left: 50%;
+  bottom: 200px;
+  width: 20px;
+}
+
 .project-text {
   background: salmon;
   margin-top: -4px;

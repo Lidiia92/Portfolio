@@ -21,10 +21,10 @@ class ContactForm extends Component {
 
     emailjs
       .send(
-        "gmail",
-        "template_9kXH959q",
+        process.env.REACT_APP_SERVICE_ID,
+        process.env.REACT_APP_TEMPLATE_ID,
         templateParams,
-        "user_RF1gOXYjCrsOWR92Gbzbh"
+        process.env.REACT_APP_USER_ID
       )
       .then(
         function(response) {
@@ -61,6 +61,7 @@ class ContactForm extends Component {
   };
 
   render() {
+    console.log(process.env);
     return (
       <>
         <form onSubmit={this.handleSubmit.bind(this)} className="form-wrapper">
@@ -69,6 +70,7 @@ class ContactForm extends Component {
             <input
               type="email"
               name="email"
+              required
               value={this.state.email}
               className="text-primary"
               onChange={this.handleChange.bind(this, "email")}
@@ -78,6 +80,7 @@ class ContactForm extends Component {
             <input
               type="text"
               name="name"
+              required
               value={this.state.name}
               className="text-primary"
               onChange={this.handleChange.bind(this, "name")}
@@ -87,6 +90,7 @@ class ContactForm extends Component {
             <input
               type="text"
               name="subject"
+              required
               className="text-primary"
               value={this.state.subject}
               onChange={this.handleChange.bind(this, "subject")}
@@ -95,6 +99,7 @@ class ContactForm extends Component {
 
             <textarea
               name="message"
+              required
               className="text-primary"
               value={this.state.message}
               onChange={this.handleChange.bind(this, "message")}
