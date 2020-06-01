@@ -116,7 +116,7 @@ function ProjectsSection() {
               <div>
                 <a
                   className="project-link"
-                  href="https://clone-coding-client.herokuapp.com/"
+                  href="https://www.challengejs.com/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
